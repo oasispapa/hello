@@ -14,7 +14,7 @@ import java.lang.reflect.Method;
 @Component
 public class ParameterAop {
 
-    @Pointcut("execution(* com.example.hello.controller..*.*(..))")
+    @Pointcut("execution(* com.example.hello.controller.ApiController..*.*(..))")
     private void cut() {
     }
 

@@ -11,10 +11,11 @@ import javax.servlet.http.HttpServletResponse;
 import java.io.BufferedReader;
 import java.io.IOException;
 
-@Slf4j
+/*@Slf4j
 @Component
 //@WebFilter(urlPatterns="/api/user/*")
 public class GlobalFilter implements Filter {
+
 
     @Override
     public void doFilter(ServletRequest request, ServletResponse response, FilterChain chain) throws IOException, ServletException {
@@ -36,4 +37,4 @@ public class GlobalFilter implements Filter {
         httpServletResponse.copyBodyToResponse();
 
     }
-}
+}*/

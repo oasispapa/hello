@@ -20,7 +20,7 @@ import java.util.List;
 @RestControllerAdvice
 public class GlobalControllerAdvice {
 
-    @ExceptionHandler(value = Exception.class)
+    //@ExceptionHandler(value = Exception.class)
     public ResponseEntity exception(Exception e) {
         System.out.println("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~");
         System.out.println(e.getClass().getName());
